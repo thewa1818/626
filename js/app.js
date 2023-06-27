@@ -41,6 +41,10 @@ function createPokemon(pokemon) {
     <img src="${pokemon.sprites.back_shiny}" />
 
      ${pokemon.base_experience}
+     ${pokemon.moves[0].move.name}
+     ${pokemon.types[0].type.name}
+     ${pokemon.game_indices[4].version.name}だよ
+     
 
     
   
